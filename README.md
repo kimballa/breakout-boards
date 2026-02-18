@@ -46,7 +46,7 @@ within `rtm`, choose the highest-numbered version to get the latest Gerbers.
 Ordering breakout panels
 ------------------------
 
-Zip up the gerber files in a given rtm directory and upload it to JLCPCB.com. The panel size and "2 layers" 
+Zip up the gerber (and .drl) files in a given rtm directory and upload it to JLCPCB.com. The panel size and "2 layers" 
 should be auto-selected. Choose "panel by customer", input the number of unique designs in the board file
 (3 for SOIC and TSSOP; 2 for SOIC-DW, 1 for SOT-23-6 and SOT-23-8), and the number of rows and columns.
 
