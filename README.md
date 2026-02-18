@@ -14,6 +14,8 @@ cases, the 5 panel minimum will still result in a supply of breakout boards that
 hobbyists a long while. If you require more, the low marginal cost of increasing to 10 or 20 panels likely 
 outcompetes the cost of making larger panels that can be ordered at qty=5.
 
+![SOIC breakout board panel PCB CAD drawing](https://github.com/kimballa/breakout-boards/blob/main/soic.png "SOIC breakout board panel")
+
 Directory structure
 -------------------
 
