@@ -5,8 +5,8 @@ SMD breakout boards
 This repo contains Kicad projects and camera-ready gerber files for panelized SMD component breakout boards.
 The design of these breakout boards emphasizes narrow breakouts that "waste" fewer rows of pins in breadboards,
 at the expense of slightly longer breakout boards that "overhang"  some number of pins to the left or right
-of the actual pin header. In most cases, breakout boards are nearly the same width as a comparable THT DIP
-component, spanning the gap in the middle of a breadboard plus only a single extra row (beyond the two rows
+of the actual pin header. In most cases, breakout boards are the same width as a comparable THT DIP
+component. Others span the gap in the middle of a breadboard plus only a single extra row (beyond the two rows
 necessary for the pin headers).
 
 Panels are designed to fit within the 100x100 mm size for a JLCPCB economy "special price" build. In many
