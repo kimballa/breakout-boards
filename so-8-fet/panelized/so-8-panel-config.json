@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "7",
+        "cols": "7"
+    },
+    "tabs": {
+        "type": "fixed",
+        "hcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.2mm",
+        "prolong": "1mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "3mm",
+        "fillet": "1mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "5060 / SO-8 / POWER-TDFN BREAKOUT - REV 2"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}

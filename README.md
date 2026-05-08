@@ -27,12 +27,14 @@ There are a few subdirectories that each contain one or more breakout boards:
   SOIC-20 breakouts
 * `sot-23` - Two panels of SOT-23-6 and SOT-23-8 breakouts
 * `qfn-20` - A non-panelized QFN-20 breakout board
+* `so-8-fet` - Panelized SO-8 / 5050 FET / Power-TDFN footprint for SMD power MOSFETs.
+  Uses NXP's "universal 5060 footprint" for maximum adaptability.
 * `micromatch-20` - a separate (non-panelized) breakout for the MicroMaTcH 20 pin connector 
 
 All panels were created with KiKit. Each "base" directory contains Kicad project and PCB layout(s)
 for singleton breakout boards. Panelized PCBs are in a subdirectory called `out` or `panelized`.
 
-* The SOT-23 breakout boards were made using the KiKit GUI from the plugin. To regenerate, load the JSON config
+* The SOT-23 and SO-8-FET breakout boards were made using the KiKit GUI from the plugin. To regenerate, load the JSON config
   file to load the appropriate settings, and identify the input kicad_pcb and target kicad_pcb files.
 * The SOIC / TSSOP and SOIC-DW breakout boards were made using the KiKit API. Each directory has a script
   called `panelize.py`. Open a KiCad Command Line terminal and run `python panelize.py` in the directory.
